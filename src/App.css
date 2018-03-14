@@ -1,0 +1,27 @@
+.header{
+    padding: 25px 0;
+}
+
+.inline-edit-container input{
+    padding:0;
+    border:0;
+    outline:0;
+    max-width:100px;
+}
+
+a.editable-text:hover{
+    text-decoration: none;
+}
+
+.editable-text .glyphicon {
+    padding-left: 15px;
+    display:none
+}
+
+.editable-text:hover .glyphicon {
+    display:inline-block;
+}
+
+.phone-row .icon-delete{
+    color:orangered;
+}
